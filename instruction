@@ -1,0 +1,9 @@
+// Creating file vue-shim.d.ts, in src solved the problem in my case
+// According to last use (in Vue router practice project), only this one change is enough
+// Src https://github.com/vuejs/vue-cli/issues/1198
+
+declare module "*.vue" {
+  import { defineComponent } from "vue";
+  const component: ReturnType<typeof defineComponent>;
+  export default component;
+}
