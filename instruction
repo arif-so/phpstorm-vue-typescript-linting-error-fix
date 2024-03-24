@@ -1,4 +1,4 @@
-// Creating file vue-shim.d.ts, in src solved the problem in my case
+// Creating file vue-shim.d.ts, in src after restart PHPStrom solved the problem in my case
 // According to last use (in Vue router practice project), only this one change is enough
 // Src https://github.com/vuejs/vue-cli/issues/1198
 
