@@ -10,4 +10,4 @@ declare module "*.vue" {
 ```
 
 ## Project preview
-![Project preview image](/.preview/1.png) 
+![Project preview image](/1.png) 
