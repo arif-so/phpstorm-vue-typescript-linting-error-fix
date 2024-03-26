@@ -1,6 +1,6 @@
-## I solved my problem by creating a file named vue-shim.d.ts in the src directory and then restarting
-Source:  https://github.com/vuejs/vue-cli/issues/1198
+## I fixed my issue by making a file called 'vue-shim.d.ts' in the src folder and then restarting PHPStorm
 
+vue-shim.d.ts code:
 ```javascript
 declare module "*.vue" {
   import { defineComponent } from "vue";
@@ -8,6 +8,7 @@ declare module "*.vue" {
   export default component;
 }
 ```
+Source:  https://github.com/vuejs/vue-cli/issues/1198
 
-## Project preview
+## Preview
 ![Project preview image](/preview.png) 
