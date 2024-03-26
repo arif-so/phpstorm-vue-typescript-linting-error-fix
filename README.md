@@ -1,4 +1,6 @@
-## I fixed my issue by making a file called 'vue-shim.d.ts' in the src folder and then restarting PHPStorm
+## Fix "Vue: Cannot find module '...' or its corresponding type declaration" error
+
+I fixed my issue by making a file called 'vue-shim.d.ts' in the src folder and then restarting PHPStorm.
 
 vue-shim.d.ts code:
 ```javascript
